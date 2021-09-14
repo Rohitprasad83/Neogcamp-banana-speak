@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto+Slab:wght@300&display=swap");
+
+body {
+  font-family: "Patrick Hand", cursive;
+}
+
+h1 {
+  background-color: yellow;
+}
+#btn-translate {
+  margin: 1rem auto;
+}
+#output-area {
+  border: 1px solid black;
+  height: 10vh;
+  width: 80%;
+  padding: 1rem;
+  margin: 1rem auto;
+}
