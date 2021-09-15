@@ -42,12 +42,19 @@ textarea {
 }
 
 footer {
-  background-color: var(--primary-color);
-  padding: 1.5rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   text-align: center;
-  height: 15vh;
+  background-color: var(--primary-color);
+
+  padding: 1rem;
 }
 
 footer p {
   font-size: medium;
+}
+
+footer h3 {
+  font-size: x-large;
 }
