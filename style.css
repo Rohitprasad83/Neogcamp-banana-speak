@@ -1,19 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto+Slab:wght@300&display=swap");
 
+:root {
+  --primary-color: rgb(211, 211, 74);
+}
 body {
   font-family: "Patrick Hand", cursive;
+  width: 100%;
+  margin: 0px auto;
 }
 
-h1 {
-  background-color: yellow;
+.header {
+  background-color: var(--primary-color);
+  text-align: center;
+  height: 10vh;
+  padding: 1rem;
+}
+
+.content {
+  padding: 1rem;
+  max-width: 650px;
+  margin: auto;
+}
+
+textarea {
+  width: 100%;
+  margin: auto;
 }
 #btn-translate {
   margin: 1rem auto;
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100px;
+  height: 40px;
+  text-align: center;
 }
 #output-area {
   border: 1px solid black;
   height: 10vh;
-  width: 80%;
-  padding: 1rem;
-  margin: 1rem auto;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: var(--primary-color);
+  padding: 1.5rem;
+  text-align: center;
+  height: 20vh;
+}
+
+footer p {
+  font-size: medium;
 }
