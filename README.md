@@ -5,7 +5,7 @@ The app asks user to input text and then translates it to minion language, that 
 ---
 
 ## **Interface of the app**
-<img src="./images/interface.png" alt="interface" width="600" height="300"/>
+<img src="./images/interface.png" alt="interface" width="600" height="400"/>
 
 ---
 
